@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gradient-to-br from-blue-50 via-cyan-50 to-amber-50;
+}
+
+.card-hover {
+  @apply transition-all duration-300 hover:shadow-2xl hover:scale-[1.02];
+}
+
+.glass-effect {
+  @apply bg-white/80 backdrop-blur-sm;
+}
